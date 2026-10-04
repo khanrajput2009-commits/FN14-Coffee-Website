@@ -1,6 +1,0 @@
-Put product photos here (JPG, ideally square-ish ~800x800). Exact names:
-espresso.jpg  cappuccino.jpg  cafe-latte.jpg  mocha.jpg  americano.jpg
-caramel-macchiato.jpg  vanilla-latte.jpg  hazelnut-coffee.jpg  spanish-latte.jpg
-flat-white.jpg  iced-latte.jpg  cold-coffee.jpg  affogato.jpg  chocolate-coffee.jpg
-fn14-signature-coffee.jpg
-Missing files automatically fall back to the built-in illustrations.
