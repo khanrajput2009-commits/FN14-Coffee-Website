@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Contact FN14 Coffee for questions, feedback or bulk orders.">
+<title>Contact | FN14 Coffee</title>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;800&family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+<link href="css/style.css" rel="stylesheet">
+</head>
+<body>
+<div id="loader"><div class="cup">☕</div><div class="ld-text">FN<b>14</b></div></div>
+<div id="site-header"></div>
+
+<section class="page-hero ph-contact"><div class="container text-center"><h1 class="display-4 fw-bold">Get In Touch</h1><p class="lead mb-0">Questions, feedback or bulk orders? We'd love to hear from you.</p></div></section>
+
+<section class="section">
+  <div class="container">
+    <div class="row g-5">
+      <div class="col-lg-5 reveal">
+        <div class="info-card"><span>📍</span><div><h6>Location</h6><p>FN14 Coffee</p></div></div>
+        <div class="info-card"><span>📞</span><div><h6>Phone</h6><p>+92 XXX XXXXXXX</p></div></div>
+        <div class="info-card"><span>📧</span><div><h6>Email</h6><p>info@fn14coffee.com</p></div></div>
+        <div class="info-card"><span>🕒</span><div><h6>Opening Hours</h6><p>10:00 AM – 11:00 PM</p></div></div>
+      </div>
+      <div class="col-lg-7 reveal">
+        <form id="contactForm" class="form-card" novalidate>
+          <h3 class="mb-4">Send Us A Message</h3>
+          <div class="row g-3">
+            <div class="col-md-6"><label class="form-label">Full Name</label><input name="name" class="form-control" placeholder="Ali Khan"><div class="invalid-feedback">Please enter a valid name.</div></div>
+            <div class="col-md-6"><label class="form-label">Email</label><input name="email" class="form-control" placeholder="you@email.com"><div class="invalid-feedback">Please enter a valid email address.</div></div>
+            <div class="col-md-6"><label class="form-label">Phone Number</label><input name="phone" class="form-control" placeholder="03XXXXXXXXX"><div class="invalid-feedback">Please enter a valid Pakistani phone number.</div></div>
+            <div class="col-md-6"><label class="form-label">Subject</label><input name="subject" class="form-control" placeholder="Order enquiry"><div class="invalid-feedback">Please enter a subject (min 3 characters).</div></div>
+            <div class="col-12"><label class="form-label">Message</label><textarea name="message" rows="5" class="form-control" placeholder="How can we help?"></textarea><div class="invalid-feedback">Message cannot be empty (min 10 characters).</div></div>
+            <div class="col-12 d-flex gap-2"><button class="btn btn-fn px-4" type="submit">Submit Message</button><button class="btn btn-outline-fn px-4" type="reset" id="resetBtn">Reset</button></div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="modal fade" id="thanksModal" tabindex="-1">
+  <div class="modal-dialog modal-dialog-centered"><div class="modal-content text-center p-4 border-0 rounded-4">
+    <div class="success-check">✓</div><h3>SUCCESS</h3>
+    <p>Thank you for contacting FN14 Coffee!<br>We will get back to you soon.</p>
+    <button class="btn btn-fn mx-auto px-5" data-bs-dismiss="modal">Close</button>
+  </div></div>
+</div>
+
+<div id="site-footer"></div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="js/data.js"></script><script src="js/layout.js"></script><script src="js/cart.js"></script>
+<script src="js/main.js"></script><script src="js/products.js"></script>
+<script src="js/contact.js"></script><script src="js/chatbot.js"></script>
+</body>
+</html>
